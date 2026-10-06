@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dw6jgbdew6qwj"]
+
+[ext_resource type="ArrayMesh" uid="uid://b8r27p8g3bx5b" path="res://assets/models/Room_Prototype.obj" id="1_7io20"]
+[ext_resource type="Texture2D" uid="uid://v2tabob3pvke" path="res://assets/textures/texture_MintJam Tilesheet.png" id="2_6kc7b"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4blbk"]
+albedo_texture = ExtResource("2_6kc7b")
+
+[node name="Node3D" type="Node3D" unique_id=1227975729]
+
+[node name="RoomPrototype" type="MeshInstance3D" parent="." unique_id=959393676]
+transform = Transform3D(0.09392351, 0, 0, 0, 0.09392351, 0, 0, 0, 0.09392351, -0.018779278, 0, -0.0103087425)
+mesh = ExtResource("1_7io20")
+surface_material_override/0 = SubResource("StandardMaterial3D_4blbk")
